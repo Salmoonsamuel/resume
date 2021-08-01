@@ -1,0 +1,31 @@
+ body {
+    margin: 0;
+    font-family: cursive;
+    background-color: gray;
+ }
+
+ .jumbotron {
+    background-color: black;
+    
+ }
+  .head1{
+    background-color: grey;
+
+    
+  }
+ img {
+    border: solid black 5px;
+    border-radius: 15px;
+ }
+ h1, h2, h4, h5 {
+     color: white;
+ }
+ .container{
+    padding-top: 100px;
+ }
+ p, li{
+    font-family: monospace;
+    color:slategray;
+    text-shadow: 1px  whitesmoke;
+    
+ }
