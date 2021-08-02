@@ -38,7 +38,7 @@
   --spacing: 0.25rem;
   --radius: 0.5rem;
   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  --dark-shadow: 0 5px 15px rgba(143, 133, 133, 0.2);
+  --dark-shadow: 0 5px 15px rgba(255, 244, 244, 0.699);
   --max-width: 1170px;
   --fixed-width: 620px;
 }
@@ -53,10 +53,6 @@
     background-color: gray;
  }
 
- .jumbotron {
-    /* background-color: black; */
-    
- }
  nav {
   background: var(--clr-white);
   box-shadow: var(--dark-shadow);
@@ -68,8 +64,10 @@
   padding: 1rem;
 }
 .logo {
-  box-shadow: var(--light-shadow);
+  box-shadow: var(--dark-shadow);
   text-shadow: 1px 1px bisque;
+  padding-right: 10px;
+  padding-left: 10px;
 }
   /* .head1{
     background-color: grey;    
@@ -81,8 +79,10 @@
   }
 
  img {
-    border: solid black 5px;
+    border: solid whitesmoke 5px;
+    transition: 5s ease-in;
     border-radius: 15px;
+    box-shadow:0 5px 15px #c59d5f;
  }
  h1, h2, h4, h5 {
      color: white;
@@ -91,8 +91,9 @@
   line-height: 1.25;
   margin-bottom: 0.75rem;
   font-family: var(--ff-primary);
+        box-shadow: var(--dark-shadow);
  }
- .container{
+ .container1{
     padding-top: 100px;
  }
  p, li{
@@ -102,5 +103,38 @@
     text-shadow: 1px  whitesmoke;
     margin-bottom: 1.25rem;
     color: var(--clr-grey-7);
-    
  }
+.label{
+   color: #fff;
+   font-size: 1.28rem;
+   margin-top: 30px;
+   margin-bottom: 20px;
+   padding-right: 5px;
+}
+.darkn{
+    box-shadow: var(--dark-shadow);
+}
+.darkk{
+   box-shadow: 0 5px 15px rgb(66, 35, 35);
+}
+ li:hover {
+      color: aquamarine;
+  }
+  p:hover {
+      color: aquamarine;
+  }
+
+a {
+   color: whitesmoke;
+   font-family: fantasy;
+
+}
+.pbutton{
+   font-family: cursive;
+   color: whitesmoke;
+   font-size: 1.50rem; 
+   padding:10px
+}
+.projdiv{
+      margin-top: 100px;
+}
