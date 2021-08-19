@@ -77,8 +77,10 @@
     background-color: grey;    
   } */
   .certificate{
-     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 45px;
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
       box-shadow: 0 5px 15px rgb(66, 35, 35);
+      text-align: center;
   }
 
  img {
@@ -87,7 +89,7 @@
     border-radius: 15px;
     box-shadow:0 5px 15px #c59d5f;
  }
- h1, h2, h4, h5 {
+  h1, h2, h4, h5 {
      color: black;
       letter-spacing: var(--spacing);
   text-transform: capitalize;
@@ -146,7 +148,7 @@
    padding:10px
 }
 .projdiv{
-      margin-top: 100px;
+      margin-top: ;
 }
 
 .size{
@@ -188,3 +190,11 @@ p {
     width: 100%;
   } */
 
+main li {
+  font-size: 35px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serifs;
+}
+
+.backcol {
+   background-color: rgb(255, 255, 255, 0.7);
+}
